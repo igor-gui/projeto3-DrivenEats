@@ -1,8 +1,11 @@
+* {
+    box-sizing:content-box;
+}
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E5E5;
+    background-color: #643b3b;
     height: fit-content;
     overflow: hidden;
 }
@@ -110,6 +113,12 @@ header {
 }
 .option:hover{
     background-color: #ecdfa4;
+}
+
+
+.selected {
+    border: 4px solid #32B72F ;
+    box-sizing: border-box;
 }
 
 .conteudo-escrito {
